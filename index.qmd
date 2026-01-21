@@ -8,7 +8,7 @@ title: "Welcome to My Product Management Portfolio"
 
 <h1>Wyatt Wolfgramm</h1>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://www.linkedin.com/in/wyatt-wolfgramm" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
 <a href="https://github.com/wyatt-44" class="btn btn-outline-primary btn-sm" target="_blank">
