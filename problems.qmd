@@ -1,0 +1,45 @@
+---
+title: "Problems I'm Exploring"
+---
+
+These are real problems I've encountered through my work with youth sports video technology. Each one represents an opportunity to create meaningful value for families, coaches, and organizations.
+
+---
+
+## 1. Parents struggle to find their athlete's best moments
+
+**Problem:** Game recordings are long and unstructured, making it hard for parents to quickly find clips of their child. Most families don't have time to scrub through 60–90 minutes of footage.
+
+**Why it matters to me:** I see firsthand that the value of MVPVU isn't just recording games—it's helping families relive specific moments that matter. If highlights aren't easy to find, the product feels overwhelming instead of joyful.
+
+---
+
+## 2. Tagging video is still too manual and inconsistent
+
+**Problem:** Even with AI cameras, tagging plays depends on human reviewers who differ in speed and accuracy. Two taggers can watch the same game and produce very different results.
+
+**Why it matters to me:** Inconsistent data hurts trust in the platform and increases operating costs. I want a workflow where AI and humans collaborate in a predictable, repeatable way.
+
+---
+
+## 3. Scheduling cameras across leagues is chaotic
+
+**Problem:** Each week involves juggling schools, gyms, operators, batteries, and game changes. One late update can break the entire schedule.
+
+**Why it matters to me:** I help coordinate real deployments, and I've seen how fragile the process is. A better system could save hours and prevent missed games.
+
+---
+
+## 4. Coaches and parents don't know how to use the footage
+
+**Problem:** Many users receive access to games but don't understand how to turn video into improvement—like building reels, reviewing positioning, or tracking stats.
+
+**Why it matters to me:** I want MVPVU to improve athlete development, not just store videos. Education and product design need to work together.
+
+---
+
+## 5. Proving ROI to cities and leagues is difficult
+
+**Problem:** Decision-makers ask, "Is this worth $29 per family?" but we lack clear dashboards showing engagement, highlight creation, and retention.
+
+**Why it matters to me:** I'm involved in the business model, and better metrics would directly help renew contracts and grow the company.
