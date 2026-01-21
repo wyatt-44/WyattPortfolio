@@ -30,14 +30,6 @@ The solution is a dashboard prototype that provides visual management of camera 
     Open App in New Tab
   </a>
 
-  <!-- GitHub Source button -->
-  <a class="btn btn-outline-dark d-inline-flex align-items-center"
-     href="https://github.com/your-user/your-repo"
-     target="_blank" rel="noopener"
-     aria-label="Open GitHub source">
-    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
-    View source on GitHub
-  </a>
 </div>
 
 <iframe src="https://prototype-psi-ten.vercel.app"
@@ -62,6 +54,3 @@ Through this project, I identified three main insights:
 2. **Visual interfaces outperform spreadsheet-based coordination** for complex scheduling tasks
 3. **Automated conflict detection** significantly reduces manual coordination time
 
-## Product Requirements Document
-
-Paste in the PRD that you submitted to Claude Code
