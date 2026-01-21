@@ -14,6 +14,9 @@ title: "About Me"
 <a href="https://github.com/wyatt-44" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
+<a href="images/Wyatt_Wolfgramm_Resume.pdf" class="btn btn-outline-primary btn-sm" target="_blank">
+  <i class="fas fa-file-pdf"></i> Download Resume
+</a>
 
 :::
 
@@ -23,32 +26,74 @@ I'm a BYU student focused on business, technology, and building real products. M
 
 I'm developing my portfolio by shipping prototypes and documenting problems I'm exploring. I'm committed to improving my skills in transforming concepts into functional, value-creating products.
 
-### Education
+---
 
-- **Brigham Young University** (Current Student)
-- **Focus Areas**: Business, Technology, Product Development
+## Education
 
-### Skills & Interests
+**Brigham Young University – Marriott School of Business** | Provo, UT
+*Bachelor of Science, Strategic Management* | Expected Apr 2027
 
-**Focus Areas**
+- GPA: 3.69
+- **Relevant Coursework:** Strategic Management, Entrepreneurial Finance, Management Communication, Information Systems, Data Analytics
+- **Activities:** Collegiate Lacrosse Athlete, Startup Founder (MVP VIEW), Business & Strategy Competitions
 
-- AI and machine learning applications
-- Operations and process optimization
-- Entrepreneurship and product development
-- Building productivity and decision-making tools
+---
 
-**Technical Skills**
+## Experience
 
-- Rapid prototyping
-- Product development
-- Problem identification and validation
+### MVP VIEW | Co-Founder & Director of Operations
+*Utah County, UT | Jan 2024 - Present*
+
+- Co-founded AI-powered youth sports video platform providing automated game recording and content delivery
+- Managed 20+ camera deployments across 5+ school districts, enabling weekly game coverage for 300+ athletes
+- Designed subscription pricing model ($29/month) addressing recurring revenue with 30%+ retention goals
+- Recruited and trained 8 camera operators, decreasing setup errors and improving game upload speed and reliability
+
+### Pleasant Grove High School – Boys Lacrosse | Assistant Varsity Coach & Head JV Coach
+*Pleasant Grove, UT | Aug 2024 - May 2025*
+
+- Designed and executed 50+ practice sessions and skill development plans for 40+ student-athletes
+- Guided a JV roster of 22+ athletes to ~12 victories, preparing 6 players for varsity promotion through structured training and film review
+- Boosted coordination by 50% across athletic department, parents, and staff to streamline operations
+
+### True Microbe | Manager, Business & Strategy (Remote)
+*Provo, UT | Jan 2022 - Jan 2024*
+
+- Curated commercialization strategy for 3 biotechnology and bioremediation product lines, contributing to market entry in 5+ target industries
+- Organized in structuring 4 distributor and private-label agreements, including pricing models, margin analysis, and contract terms
+- Evaluated regulatory constraints (export licenses and compliance) impacting revenue timing by 30%
+- Built competitive pricing frameworks comparing 10+ market alternatives, improving product positioning
+
+### The Church of Jesus Christ of Latter-day Saints | Volunteer Representative
+*Asunción, Paraguay | Jul 2019 - Jul 2021*
+
+- Controlled six-figure annual mission operating funds, including expense approvals, reimbursements, housing payments, and vendor disbursements
+- Oversaw monthly financial reporting and compliance across 12 zones and 150+ personnel
+- Maintained internal controls for $300K+ in annual funds, achieving 100% audit pass rate with zero material findings
+- Developed professional Spanish fluency through full-time immersion while leading teams of 8–12 members and coordinating communication with 100+ community stakeholders weekly
+
+---
+
+## Awards & Recognition
+
+- Pleasant Grove Lacrosse Program Leadership Award
+- Paraguay Volunteer Leadership Recognition
+- MVP Vue Operational Excellence Recognition
+
+---
+
+## Skills & Interests
+
+**Skills**
+
+- Operations Management & Process Optimization
+- Rapid Prototyping & Product Development
+- Financial Analysis & Pricing Strategy
+- Team Leadership & Training
+- Spanish (Professional Fluency)
 
 **Interests**
 
-- Exploring how AI can improve business operations
-- Building tools that solve real problems
-- Shipping products and learning through iteration
-
-### What's Next
-
-I'm looking for opportunities to apply my skills in product development, operations, and AI. I'm passionate about building things that create real value and am always exploring new problems worth solving.
+- Entrepreneurship and sports technology innovation
+- Lacrosse coaching, youth mentorship, and community service
+- Spanish language & Latin American culture, fishing, and travel
