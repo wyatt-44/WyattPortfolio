@@ -1,24 +1,29 @@
 ---
-title: "Name of the application I have published for Homework 1"
+title: "Sprint 1: MVPVU Camera Scheduler"
 date: "2024-09-15"
 categories: [GitHub, Vercel, Claude Code]
 ---
 
 ## Overview
 
-This project involved using Claude Code to write the code to needed to deveop an app that ...
+This project addresses the scheduling complexity when coordinating cameras across multiple sports venues. The challenge involves managing numerous variables including schools, gyms, operators, batteries, and frequent schedule changes.
 
-The primary purpose of this app is to:
+The solution is a dashboard prototype that provides visual management of camera assignments across different venues and timeframes.
 
-- ....
-- ....
+## Key Capabilities
+
+- Calendar-based scheduling view spanning multiple locations
+- Automatic visual conflict identification (color-coded warnings)
+- Battery status monitoring with alert indicators
+- Quick reassignment functionality via modal interface
+- Metrics dashboard showing assignment status and conflict counts
 
 ## Live Product Demo
 
 <div class="d-flex justify-content-center gap-3 my-4">
   <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://tetris-game-egc6.vercel.app/"
+     href="https://prototype-psi-ten.vercel.app"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
@@ -35,19 +40,27 @@ The primary purpose of this app is to:
   </a>
 </div>
 
-<iframe src="https://tetris-game-egc6.vercel.app/"
+<iframe src="https://prototype-psi-ten.vercel.app"
         style="width:100%; height:900px; border:none;"
         allowfullscreen>
 </iframe>
 
 ## Technical Details
 
-Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+Framework/Stack: HTML/CSS/JS
 
 Deployment: GitHub Pages + Vercel
 
 Tools Used:
 -   Claude Code
+
+## Learning Outcomes
+
+Through this project, I identified three main insights:
+
+1. **Rapid prototyping validates assumptions** before full development investment
+2. **Visual interfaces outperform spreadsheet-based coordination** for complex scheduling tasks
+3. **Automated conflict detection** significantly reduces manual coordination time
 
 ## Product Requirements Document
 

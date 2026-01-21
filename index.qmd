@@ -21,8 +21,8 @@ title: "Welcome to My Product Management Portfolio"
 
 ::: {.g-col-12 .g-col-md-6 .card}
 
-### [Name of my first app](projects/project-1.qmd)
-A one sentence description of my first application which is deployed to vercel. 
+### [Sprint 1: MVPVU Camera Scheduler](projects/project-1.qmd)
+A dashboard prototype for visual management of camera assignments across multiple sports venues, featuring conflict detection and battery monitoring.
 
 :::
 
