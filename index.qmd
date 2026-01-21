@@ -4,7 +4,7 @@ title: "Welcome to My Product Management Portfolio"
 
 ::: {.hero-banner .text-center}
 
-<img src="images/profile.jpg" alt="Wyatt Wolfgramm" class="rounded-circle mb-3" width="160">
+<img src="images/profile.jpg" alt="Wyatt Wolfgramm" class="rounded-circle mb-3" width="250">
 
 <h1>Wyatt Wolfgramm</h1>
 
