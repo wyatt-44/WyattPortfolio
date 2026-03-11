@@ -7,6 +7,7 @@ title: "Welcome to My Product Management Portfolio"
 <img src="images/profile.jpg" alt="Wyatt Wolfgramm" class="rounded-circle mb-3" width="250">
 
 <h1>Wyatt Wolfgramm</h1>
+<h2>Product Builder &middot; BYU Marriott School of Business</h2>
 
 <a href="https://www.linkedin.com/in/wyatt-wolfgramm" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
@@ -21,8 +22,14 @@ title: "Welcome to My Product Management Portfolio"
 
 ::: {.g-col-12 .g-col-md-6 .card}
 
+### [Sprint 3: MVPVU Highlights Platform](projects/project-3.qmd)
+A full-stack web app with Supabase auth, database persistence, and RLS — enabling families to watch youth sports games, clip highlights, and share them securely.
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .card}
+
 ### [Sprint 1: MVPVU Camera Scheduler](projects/project-1.qmd)
 A dashboard prototype for visual management of camera assignments across multiple sports venues, featuring conflict detection and battery monitoring.
 
 :::
-
