@@ -20,8 +20,8 @@ website:
             text: "Sprint 1: MVPVU Camera Scheduler"
           #- href: projects/project-2.qmd
           #  text: Business Case Presentation
-          #- href: projects/project-3.qmd
-          #  text: Project 3
+          - href: projects/project-3.qmd
+            text: "Sprint 3: MVPVU Highlights Platform"
           #- href: projects/project-4.qmd
           #  text: Project 4
           #- href: projects/project-5.qmd
