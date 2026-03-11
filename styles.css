@@ -1,23 +1,21 @@
-/* MVPVU-themed Portfolio Styles */
+/* Portfolio Styles — Clean & Professional */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 :root {
-  --primary: #7D4996;
-  --primary-dark: #4A1763;
-  --primary-light: #9761B1;
+  --primary: #1a1a2e;
+  --primary-light: #16213e;
   --accent: #F8931F;
-  --gradient: linear-gradient(135deg, #7D4996 0%, #F8931F 100%);
-  --bg: #F8EEF5;
+  --accent-hover: #e07d0a;
+  --bg: #f5f5f7;
   --surface: #FFFFFF;
-  --surface-2: #F3EAF0;
-  --border: rgba(0, 0, 0, 0.06);
-  --text: #1E1A1F;
-  --text-secondary: #635C63;
-  --text-dim: #968E95;
+  --surface-2: #f0f0f2;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-secondary: #555;
+  --text-dim: #888;
 }
 
-/* Override Quarto's Bootstrap theme */
 body {
   font-family: 'Inter', system-ui, sans-serif !important;
   color: var(--text);
@@ -27,44 +25,44 @@ body {
 
 /* Navbar */
 .navbar {
-  background: var(--surface) !important;
-  border-bottom: 1px solid var(--border);
-  box-shadow: 0 1px 12px rgba(0,0,0,0.04);
+  background: var(--primary) !important;
+  border-bottom: none;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
   padding: 0.75rem 0;
 }
 
 .navbar-brand, .navbar-title {
   font-family: 'Space Grotesk', system-ui, sans-serif !important;
   font-weight: 700 !important;
-  color: var(--primary) !important;
+  color: #fff !important;
   font-size: 1.3rem !important;
 }
 
 .navbar .nav-link {
-  color: var(--text-secondary) !important;
+  color: rgba(255,255,255,0.7) !important;
   font-weight: 500;
   font-size: 0.9rem;
   transition: color 0.2s;
 }
 
 .navbar .nav-link:hover, .navbar .nav-link.active {
-  color: var(--primary) !important;
+  color: var(--accent) !important;
 }
 
-.navbar-nav {
-  margin: 0 auto;
-  justify-content: center;
-}
+.navbar-nav { margin: 0 auto; justify-content: center; }
+
+.navbar-toggler { border-color: rgba(255,255,255,0.3) !important; }
+.navbar-toggler-icon { filter: invert(1); }
 
 /* Hero banner */
 .hero-banner {
   text-align: center;
   padding: 3rem 2rem;
   background: var(--surface);
-  border-radius: 16px;
+  border-radius: 14px;
   margin-bottom: 2.5rem;
   border: 1px solid var(--border);
-  box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
 }
 
 .hero-banner h1 {
@@ -77,54 +75,34 @@ body {
 }
 
 .hero-banner h2 {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 400;
   color: var(--text-dim);
   margin-bottom: 1.5rem;
   margin-top: 0;
 }
 
-.hero-banner .btn {
-  margin: 0.25rem;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  transition: all 0.2s;
-}
-
-.hero-banner .btn:hover {
-  text-decoration: none;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 16px rgba(125, 73, 150, 0.25);
-}
+.hero-banner .btn { margin: 0.25rem; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 0.85rem; transition: all 0.2s; }
+.hero-banner .btn:hover { text-decoration: none; transform: translateY(-1px); }
 
 .hero-banner .btn-outline-primary {
   color: var(--primary) !important;
   border-color: var(--primary) !important;
 }
-
 .hero-banner .btn-outline-primary:hover {
   background: var(--primary) !important;
   color: white !important;
+  box-shadow: 0 4px 12px rgba(26,26,46,0.25);
 }
 
 .hero-banner .rounded-circle {
   border: 3px solid var(--surface-2);
-  box-shadow: 0 4px 20px rgba(125, 73, 150, 0.15);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 /* Main content */
-main {
-  padding: 2rem 0;
-  line-height: 1.65;
-}
-
-.quarto-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+main { padding: 2rem 0; line-height: 1.65; }
+.quarto-container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
@@ -135,173 +113,83 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.3px;
 }
 
-h2 {
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--text);
-}
-
-h3 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.75rem;
-  font-size: 1.15rem;
-  color: var(--text);
-}
-
-p {
-  margin-bottom: 1.2rem;
-  color: var(--text-secondary);
-}
+h2 { margin-top: 2.5rem; margin-bottom: 1rem; font-size: 1.5rem; font-weight: 700; }
+h3 { margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.15rem; }
+p { margin-bottom: 1.2rem; color: var(--text-secondary); }
 
 /* Cards */
 .g-col-12.g-col-md-6, .card {
   padding: 1.5rem;
   border: 1px solid var(--border) !important;
-  border-radius: 14px !important;
+  border-radius: 12px !important;
   background: var(--surface) !important;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+  box-shadow: 0 1px 8px rgba(0,0,0,0.03);
 }
 
 .g-col-12.g-col-md-6:hover, .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(125, 73, 150, 0.12);
-  border-color: rgba(125, 73, 150, 0.15) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+  border-color: var(--accent) !important;
 }
 
-.grid {
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-}
+.grid { gap: 1.5rem; margin: 1.5rem 0; }
 
 /* Links */
-a {
-  text-decoration: none;
-  color: var(--primary);
-  transition: color 0.2s ease;
-}
+a { text-decoration: none; color: var(--accent); transition: color 0.2s ease; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
 
-a:hover {
-  color: var(--primary-dark);
-  text-decoration: underline;
-}
-
-/* Buttons — global overrides for Bootstrap primary */
+/* Buttons */
 .btn-primary {
-  background: var(--gradient) !important;
+  background: var(--primary) !important;
   border: none !important;
-  border-radius: 10px !important;
+  border-radius: 8px !important;
   font-weight: 600;
-  box-shadow: 0 4px 16px rgba(125, 73, 150, 0.3);
+  box-shadow: 0 2px 10px rgba(26,26,46,0.2);
   transition: all 0.2s;
 }
-
 .btn-primary:hover {
+  background: var(--primary-light) !important;
   transform: translateY(-1px);
-  box-shadow: 0 6px 24px rgba(125, 73, 150, 0.45) !important;
+  box-shadow: 0 4px 16px rgba(26,26,46,0.3) !important;
 }
 
 /* Lists */
-ul, ol {
-  margin-bottom: 1.5rem;
-  padding-left: 1.5rem;
-}
+ul, ol { margin-bottom: 1.5rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.4rem; color: var(--text-secondary); }
 
-li {
-  margin-bottom: 0.4rem;
-  color: var(--text-secondary);
-}
+hr { border-color: var(--border); margin: 2rem 0; }
 
-/* Horizontal rules */
-hr {
-  border-color: var(--border);
-  margin: 2rem 0;
-}
-
-/* Title banner (Quarto page titles) */
-.quarto-title-banner {
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.quarto-title-block .quarto-title {
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.quarto-title-block .quarto-title h1 {
-  text-align: center;
-}
-
-.quarto-title-block .description {
-  text-align: center;
-}
-
-.quarto-title-block .quarto-categories {
-  justify-content: center;
-}
+/* Quarto title blocks */
+.quarto-title-banner { padding: 2rem 0; text-align: center; }
+.quarto-title-block .quarto-title { margin-bottom: 1rem; text-align: center; }
+.quarto-title-block .quarto-title h1 { text-align: center; }
+.quarto-title-block .description { text-align: center; }
+.quarto-title-block .quarto-categories { justify-content: center; }
 
 .quarto-title-block .quarto-category {
   background: var(--surface-2) !important;
-  color: var(--primary) !important;
-  border: 1px solid rgba(125, 73, 150, 0.15) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
   border-radius: 6px;
   font-size: 0.8rem;
   font-weight: 500;
 }
 
 /* TOC sidebar */
-.sidebar nav[role="doc-toc"] a {
-  color: var(--text-dim);
-  font-size: 0.85rem;
-}
-
-.sidebar nav[role="doc-toc"] a:hover,
-.sidebar nav[role="doc-toc"] a.active {
-  color: var(--primary);
-}
+.sidebar nav[role="doc-toc"] a { color: var(--text-dim); font-size: 0.85rem; }
+.sidebar nav[role="doc-toc"] a:hover, .sidebar nav[role="doc-toc"] a.active { color: var(--accent); }
 
 /* Code blocks */
-pre {
-  background: var(--surface) !important;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1rem;
-  margin: 1.5rem 0;
-}
+pre { background: var(--surface) !important; border: 1px solid var(--border); border-radius: 8px; padding: 1rem; margin: 1.5rem 0; }
 
 /* Tables */
-table {
-  margin: 1.5rem 0;
-  border-collapse: collapse;
-  width: 100%;
-}
+table { margin: 1.5rem 0; border-collapse: collapse; width: 100%; }
+th, td { padding: 0.75rem; border: 1px solid var(--border); }
+th { background: var(--surface-2); font-weight: 600; color: var(--text); }
 
-th, td {
-  padding: 0.75rem;
-  border: 1px solid var(--border);
-}
-
-th {
-  background: var(--surface-2);
-  font-weight: 600;
-  color: var(--text);
-}
-
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-/* About page */
-.about-contents {
-  max-width: 800px;
-  margin: 0 auto;
-}
+img { max-width: 100%; height: auto; border-radius: 8px; }
+.about-contents { max-width: 800px; margin: 0 auto; }
 
 /* Footer */
 .nav-footer {
@@ -311,6 +199,11 @@ img {
   background: var(--surface) !important;
 }
 
+/* Dropdown */
+.dropdown-menu { border: 1px solid var(--border) !important; border-radius: 8px !important; box-shadow: 0 8px 24px rgba(0,0,0,0.1) !important; background: var(--surface) !important; }
+.dropdown-item { color: var(--text-secondary) !important; font-size: 0.9rem; }
+.dropdown-item:hover { background: var(--surface-2) !important; color: var(--accent) !important; }
+
 /* Responsive */
 @media (max-width: 768px) {
   .quarto-container { padding: 0 15px; }
@@ -319,22 +212,4 @@ img {
   main { padding: 1rem 0; }
   .hero-banner { padding: 2rem 1.25rem; }
   .hero-banner h1 { font-size: 2rem; }
-}
-
-/* Dropdown menu styling */
-.dropdown-menu {
-  border: 1px solid var(--border) !important;
-  border-radius: 10px !important;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.08) !important;
-  background: var(--surface) !important;
-}
-
-.dropdown-item {
-  color: var(--text-secondary) !important;
-  font-size: 0.9rem;
-}
-
-.dropdown-item:hover {
-  background: var(--surface-2) !important;
-  color: var(--primary) !important;
 }
